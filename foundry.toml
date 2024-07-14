@@ -1,0 +1,18 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "openzeppelin/=node_modules/@openzeppelin/",
+    "chainlink/=node_modules/@chainlink/"
+]
+solc_version = "0.8.20"
+
+[scripts]
+deploy_dsc = { path = "script/Deploy_DSC.s.sol", version = "0.8.20" }
+
+[dependencies]
+forge_std = { path = "lib/forge-std", version = ">=0.6.2 <0.9.0" }
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
