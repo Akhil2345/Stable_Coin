@@ -61,7 +61,7 @@ cd MyProject
    ```forge init MyProject
 cd MyProject
 
-forge install " Github Repo URL oif chainlink-brownie-Contracts 
+forge install " Github Repo URL of chainlink-brownie-Contracts 
 ```
 ## Estimating Gas:
 You can estimate how much gas things cost by running:
