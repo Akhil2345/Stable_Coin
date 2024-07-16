@@ -50,8 +50,24 @@ This project demonstrates the implementation of a decentralized stable coin (DSC
     ```bash
     forge build
     ```
+# Additional Info:
+1. **Please Do create "lib " folder if not available via "forge init " , Install "OpenZepplin " contracts**:
+ ```forge init MyProject
+cd MyProject
 
-## Usage
+   forge install OpenZeppelin/openzeppelin-contracts
+   ```
+3. **Please Do install Chainlink-Brownie-Contracts also in lib**:
+   ```forge init MyProject
+cd MyProject
+
+forge install " Github Repo URL oif chainlink-brownie-Contracts 
+```
+## Estimating Gas:
+You can estimate how much gas things cost by running:
+```forge snapshot```
+And you'll see an output file called .gas-snapshot
+
 
 ### Deploying the Contract
 
