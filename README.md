@@ -58,9 +58,11 @@ cd MyProject
    forge install OpenZeppelin/openzeppelin-contracts
    ```
 3. **Please Do install Chainlink-Brownie-Contracts also in lib**:
-   ```forge init MyProject
+   ```bash
+   forge init MyProject
 cd MyProject
-
+```
+```bash 
 forge install " Github Repo URL of chainlink-brownie-Contracts 
 ```
 ## Estimating Gas:
